@@ -1,0 +1,62 @@
+.rightnav{
+    display: flex;
+    justify-content: right;
+}
+
+@media screen and (max-width: 600px) {
+    .shortabout{
+      font-size: 35px; 
+      font-family: 'RetroPixel', monospace;
+       
+
+    
+}
+   
+.block1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 901px) {
+    .shortabout{
+      font-size: 45px; 
+      font-family: 'RetroPixel', monospace;
+       
+
+    
+}
+   
+.block1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+}
+
+@media screen and  (min-width: 901px) {
+    .shortabout{
+      font-size: 50px; 
+    font-family: 'RetroPixel', monospace;
+   
+  
+
+    
+}
+   
+.block1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+}
+
+.typesofwork{
+    display: flex;
+    
+}
+
+
+@font-face {
+  font-family: 'RetroPixel';
+  src: url('fonts/retro_pixel.woff2') format('woff2');
+} 
