@@ -6,7 +6,7 @@
 @media screen and (max-width: 600px) {
     .shortabout{
       font-size: 35px; 
-      font-family: 'RetroPixel', monospace;
+    font-family: 'Pixelify Sans', sans-serif;
        
 
     
@@ -22,7 +22,7 @@
 @media screen and (min-width: 601px) and (max-width: 901px) {
     .shortabout{
       font-size: 45px; 
-      font-family: 'RetroPixel', monospace;
+      font-family: 'Pixelify Sans', sans-serif;
        
 
     
@@ -37,7 +37,7 @@
 @media screen and  (min-width: 901px) {
     .shortabout{
       font-size: 50px; 
-    font-family: 'RetroPixel', monospace;
+    font-family: 'Pixelify Sans', sans-serif;
    
   
 
@@ -56,7 +56,157 @@
 }
 
 
-@font-face {
-  font-family: 'RetroPixel';
-  src: url('fonts/retro_pixel.woff2') format('woff2');
-} 
+
+.pixelify {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+
+ #homeBtn {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   background: none;
+   border: none;
+   cursor: pointer;
+   font-size: 28px;
+ }
+
+
+
+ @media screen and  (min-width: 901px) {
+    .about{
+      font-size: 50px; 
+    font-family: 'Pixelify Sans', sans-serif;
+    }
+
+    .aboutText{
+        font-size:20px ;
+
+    }
+
+
+     .container{
+    display: flex;
+  justify-content: center; 
+  height: 10vh;
+  
+ }
+
+ .container2{
+    display: flex;
+  justify-content: center; 
+  height: 5vh;
+  margin-left: 500px;
+  margin-right: 500px;
+ }
+
+ .container3{
+    display: flex;
+  justify-content: center; 
+  height: 5vh;
+  margin-left: 500px;
+  margin-right: 500px;
+ }
+
+  .container4{
+    display: flex;
+  justify-content: center; 
+  height: 10vh;
+  margin-left: 500px;
+  margin-right: 500px;
+ }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .about{
+      font-size: 35px; 
+    font-family: 'Pixelify Sans', sans-serif;
+
+    }
+    .aboutText{
+        font-size: 17px;
+    }
+
+.container{
+    display: flex;
+    justify-content: center; 
+    height: 10vh;
+  
+ }
+
+.container2{
+    display: flex;
+    justify-content: center; 
+    height: 5vh;
+    margin-left: 90px;
+    margin-right: 90px;
+ }
+
+ .container3{
+    display: flex;
+    justify-content: center; 
+    height: 5vh;
+    margin-left: 90px;
+    margin-right: 90px;
+ }
+
+  .container4{
+    display: flex;
+    justify-content: center; 
+    height: 10vh;
+    margin-left: 90px;
+    margin-right: 90px;
+ }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 901px) {
+    .about{
+      font-size: 45px; 
+      font-family: 'Pixelify Sans', sans-serif;
+    }
+    .aboutText{
+        font-size:18px ;
+    }   
+    
+
+
+.container{
+    display: flex;
+  justify-content: center; 
+  height: 10vh;
+  
+ }
+
+ .container2{
+    display: flex;
+  justify-content: center; 
+  height: 5vh;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+
+ .container3{
+    display: flex;
+  justify-content: center; 
+  height: 5vh;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+
+  .container4{
+    display: flex;
+  justify-content: center; 
+  height: 10vh;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+}
